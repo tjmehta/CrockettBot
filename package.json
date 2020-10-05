@@ -2,7 +2,7 @@
   "name": "crockettbot",
   "private": true,
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "CrockettDoodles bot that sends a text message when new puppies are available",
   "main": "index.js",
   "dependencies": {
