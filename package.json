@@ -1,0 +1,36 @@
+{
+  "name": "crockettbot",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "description": "CrockettDoodles bot that sends a text message when new puppies are available",
+  "main": "index.js",
+  "dependencies": {
+    "abstract-app": "^1.0.1",
+    "baseerr": "^1.0.1",
+    "bent": "^7.3.10",
+    "dotenv": "^8.2.0",
+    "env-var": "^6.3.0",
+    "mississippi": "^4.0.0",
+    "twilio": "^3.49.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2"
+  },
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjmehta/CrockettBot.git"
+  },
+  "author": "Tejesh Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmehta/CrockettBot/issues"
+  },
+  "homepage": "https://github.com/tjmehta/CrockettBot#readme"
+}
